@@ -432,7 +432,7 @@ function weather_layer_getWeatherLayer ($args)
 	}
 	
 	if (empty($retour))
-		$retour = 'No weather data found for [' . implode($args, ', ') . ']';
+		$retour = 'Pas de données météo trouvées pour [' . implode($args, ', ') . ']';
 	
 	return $retour;
 }
